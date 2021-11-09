@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/anh22"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_user2"
+        android:layout_width="match_parent"
+        android:layout_height="565dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="53dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/botron_button"
+        android:text="+"
+        android:textSize="23sp"
+        app:backgroundTint="#FFF9A825" />
+
+
+</LinearLayout>
